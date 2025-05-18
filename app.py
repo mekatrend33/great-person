@@ -1,5 +1,3 @@
---- START OF FILE app2.py ---
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -16,7 +14,7 @@ st.subheader("스트림릿 기능 맛보기") # 오타 수정: 맛보기기 -> �
 st.markdown("### 페이지 이동")
 # st.page_link를 사용하여 다른 페이지로 이동하는 링크 생성
 # "pages/01_막대그래프.py"는 pages 폴더 내의 실제 파일 경로입니다.
-st.page_link("pages/01_막대그래프.py", label="막대그래프 페이지 보기", icon="📊")
+st.page_link("01_막대그래프.py", label="막대그래프 페이지 보기", icon="📊")
 
 st.markdown("---") # 구분선
 
@@ -39,5 +37,5 @@ st.info("""
 위 '막대그래프 페이지 보기' 링크를 클릭하거나,
 왼쪽 사이드바에서 '01 막대그래프'를 선택하여 해당 페이지로 이동할 수 있습니다.
 """)
---- END OF FILE app2.py ---
+
 
